@@ -1,10 +1,11 @@
 package org.example.expensetracker.model;
 
 import java.time.LocalDate;
+
 public class Expense {
     private static int nextId = 1;
     private final int id;
-    private LocalDate date;
+    private final LocalDate date;
     private String category;
     private String description;
     private double amount;
@@ -25,8 +26,8 @@ public class Expense {
         return date;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public String getCategory() {
+        return category;
     }
 
     public String getDescription() {
@@ -37,16 +38,12 @@ public class Expense {
         return amount;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public void setCategory(String category) {
         this.category = category;
     }
 
-    public String getCategory() {
-        return category;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public void setAmount(double amount) {

@@ -1,15 +1,18 @@
 package org.example.expensetracker.repository;
 
+import org.example.expensetracker.model.Budget;
 import org.example.expensetracker.model.Expense;
 
 import java.util.List;
 
 public interface SaveRepository {
-    void add(Expense expense);
+    void addExpense(Expense expense);
 
-    List<Expense> get();
+    List<Expense> getExpenses();
 
-    List<Expense> getByCategory(String category);
+    List<Budget> getBudgets();
+
+    void setBudget(Budget budget);
 
     void convertToCSV();
 }

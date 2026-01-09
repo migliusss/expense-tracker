@@ -7,8 +7,8 @@ Project idea: https://roadmap.sh/projects/expense-tracker
 ```
 git clone https://github.com/migliusss/Happy-Plant.git
 ```
-Run `ExpenseTrackerApplication.java` in Intellij. Or run the following command:
+Run `ExpenseTrackerApplication.java` in IntelliJ. Or run the following command:
 ```
 mvn spring-boot:run
 ```
-Avilable shell commands can be found in `shell.md`.
+Available shell commands can be found in `shell.md`.
