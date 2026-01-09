@@ -1,12 +1,16 @@
-# expense-tracker
+# 💸 Expense Tracker
 A simple expense tracker application to manage your finances. The application allow users to add, delete, and view their expenses. The application also provides a summary of the expenses.
+Project idea from: https://roadmap.sh/projects/expense-tracker
 
-## Start Application
+## How to start the application
 ```
 git clone https://github.com/migliusss/Happy-Plant.git
 ```
 
-Run ExpenseTrackerApplication.java in Intellij. Or run the following command:
+Run ExpenseTrackerApplication.java in Intellij. 
+
+Or run the following command:
 ```
 mvn spring-boot:run
 ```
+
