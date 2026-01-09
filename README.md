@@ -2,13 +2,12 @@
 A simple expense tracker application to manage your finances. The application allow users to add, delete, and view their expenses. The application also provides a summary of the expenses.
 Project idea: https://roadmap.sh/projects/expense-tracker
 
-Avilable shell commands are in `shell.md`.
+Avilable shell commands can be found in `shell.md`.
 
 ## How to start the application
 ```
 git clone https://github.com/migliusss/Happy-Plant.git
 ```
-
 Run `ExpenseTrackerApplication.java` in Intellij. Or run the following command:
 ```
 mvn spring-boot:run
