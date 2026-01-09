@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: expense-tracker
+  shell:
+    interactive:
+      enabled: true
+
