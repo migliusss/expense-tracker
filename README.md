@@ -1,8 +1,7 @@
 # 💸 Expense Tracker
-A simple expense tracker application to manage your finances. The application allow users to add, delete, and view their expenses. The application also provides a summary of the expenses.
-Project idea: https://roadmap.sh/projects/expense-tracker
+A simple expense tracker application to manage your finances. The application allow users to add, delete, and view their expenses. The application also provides a summary of the expenses. 
 
-Avilable shell commands can be found in `shell.md`.
+Project idea: https://roadmap.sh/projects/expense-tracker
 
 ## How to start the application
 ```
@@ -12,4 +11,4 @@ Run `ExpenseTrackerApplication.java` in Intellij. Or run the following command:
 ```
 mvn spring-boot:run
 ```
-
+Avilable shell commands can be found in `shell.md`.
